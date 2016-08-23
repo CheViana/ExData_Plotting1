@@ -1,6 +1,6 @@
 # To extract relevant data
 
-df <- read.csv("~/Documents/rhome/assignment 1/ExData_Plotting1/household_power_consumption.txt", header=TRUE, sep=";", na.strings = "?")
+df <- read.csv("household_power_consumption.txt", header=TRUE, sep=";", na.strings = "?")
 md <- subset(df, Date == "1/2/2007" | Date == "2/2/2007")
 datetime <- paste(md$Date, md$Time, sep=" ")
 timevar <- strptime(datetime, format="%D/%M/%Y %H:%M:%S")

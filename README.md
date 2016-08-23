@@ -1,3 +1,15 @@
+## Quick start
+
+This repo contains my stub at implementing graphs as described in [lesson page](https://www.coursera.org/learn/exploratory-data-analysis/peer/ylVFo/course-project-1).
+To run:
+- download and unzip data from the <b>Dataset</b> link below
+- put <b>household_power_consumption.txt</b> file into your r home dir
+- run commands in <b>plots.r</b>
+(replacing path to data file with appropriate one if needed)
+Code to save plots into .png files is not included.
+
+Assignment readme:
+
 ## Introduction
 
 This assignment uses data from
